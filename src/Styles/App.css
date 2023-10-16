@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@layer components {
+  * {
+    @apply bg-navy text-white font-regular min-h-screen w-screen text-regular text-center scroll-smooth
+  }
+}

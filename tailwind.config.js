@@ -7,8 +7,8 @@ module.exports = {
       regular : ['Inter', 'sans-serif'],
     },
     fontSize : {
-      'heading' : ['36px', {
-          lineHeight : '40px',
+      'heading' : ['60px', {
+          lineHeight : '50px',
           letterSpacing : '0px',
           fontWeight : '800',
         }
@@ -31,6 +31,12 @@ module.exports = {
         fontWeight : '400',
       }
     ],
+    'small' : ['16px', {
+        lineHeight : '28px',
+        letterSpacing : '0px',
+        fontWeight : '400',
+      }
+    ],
   },
     screens: {
       'mobile' : '375px',
@@ -44,6 +50,7 @@ module.exports = {
       'slate' : '#8892b0',
       'white' : '#e6f1ff',
       'green' : '#64ffda',
+      'transparent' : 'transparent',
       'light-navy' : '#112240',
       'light-slate' : '#a8b2d1',
       'lightest-navy' : '#233554',

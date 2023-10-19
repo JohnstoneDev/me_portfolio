@@ -5,6 +5,10 @@
 
 @layer components {
   * {
-    @apply bg-navy text-white font-regular min-h-screen w-screen text-regular text-center scroll-smooth
+    @apply bg-navy text-white font-regular text-small tablet:text-regular scroll-smooth tracking-wide
+  }
+
+  main {
+    @apply flex flex-col gap-4 space-y-3
   }
 }

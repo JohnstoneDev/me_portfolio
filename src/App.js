@@ -1,10 +1,18 @@
+
 import './Styles/App.css'
+
+import { Paths } from './Routes/Routes';
+import { NavBar } from '../src/Components/Navigation/Navbar'
+import { Container } from './Components/Container/Container';
 
 function App() {
   return (
-    <div>
-      Hello There
-    </div>
+    <Container>
+      <main>
+        <NavBar />
+        <Paths />
+      </main>
+    </Container>
   );
 }
 

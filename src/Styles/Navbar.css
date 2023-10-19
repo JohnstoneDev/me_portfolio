@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+  nav {
+    @apply p-2
+  }
+
+  h1 {
+    @apply text-button font-bold
+  }
+
+  a {
+    @apply font-extralight transition-all duration-200 delay-75 text-[13px] tablet:text-small
+  }
+
+  .main-nav {
+    @apply flex items-end justify-between gap-4
+  }
+
+  .links {
+    @apply flex items-end justify-between gap-3
+  }
+}

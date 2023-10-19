@@ -1,0 +1,32 @@
+@tailwind components;
+
+
+@layer components {
+  .homepage {
+    @apply flex flex-col gap-4 p-3
+  }
+
+  .hero-section {
+    @apply flex flex-col gap-6 justify-between tablet:w-[800px]
+  }
+
+  .hero-section > article {
+    @apply flex flex-col space-y-2 gap-4
+  }
+
+  article > h1, h2 {
+    @apply text-heading font-extrabold
+  }
+
+  article > h2, p, span {
+    @apply text-light-slate
+  }
+
+  article > span {
+    @apply text-small font-medium
+  }
+
+  article > a {
+    @apply p-3 border w-[200px] text-button rounded-md border-light-slate hover:bg-slate hover:text-navy
+  }
+}

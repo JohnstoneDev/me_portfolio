@@ -13,6 +13,12 @@ module.exports = {
           fontWeight : '800',
         }
       ],
+      'semi-heading' : ['45px', {
+        lineHeight : '50px',
+        letterSpacing : '0px',
+        fontWeight : '800',
+      }
+    ],
     'section' : ['24px', {
         lineHeight : '32px',
         letterSpacing : '0px',

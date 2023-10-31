@@ -4,10 +4,9 @@ import { motion } from "framer-motion"
 
 import '../../Styles/home.css'
 
-
 export const Hero = () => {
   return (
-    <motion.div initial={{ x: 0 }}>
+    <motion.div>
       <section className="hero-section">
         <article>
           <span>Hello there, I'm </span>

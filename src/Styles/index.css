@@ -11,6 +11,23 @@
   box-sizing: border-box;
 }
 
+/* width of the scrollbar */
 ::-webkit-scrollbar {
-  display: none;
+  width : 10px;
+}
+
+/* track, the 'road' of the scrollbar */
+::-webkit-scrollbar-track {
+  background : #112240;
+}
+
+/* the scrolling element thing */
+::-webkit-scrollbar-thumb {
+  background: #64ffda;
+  border-radius: 10px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8892b0;
 }

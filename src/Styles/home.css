@@ -3,11 +3,11 @@
 
 @layer components {
   .homepage {
-    @apply flex flex-col gap-4 p-3
+    @apply flex flex-col gap-4 p-3 space-y-24
   }
 
   .hero-section {
-    @apply flex flex-col gap-6 justify-between tablet:w-[800px]
+    @apply flex flex-col gap-6 justify-between tablet:w-[700px]
   }
 
   .hero-section > article {
@@ -15,7 +15,7 @@
   }
 
   article > h1, h2 {
-    @apply text-heading font-extrabold
+    @apply text-semi-heading tablet:text-heading font-extrabold
   }
 
   article > h2, p, span {
@@ -27,6 +27,30 @@
   }
 
   article > a {
-    @apply p-3 border w-[200px] text-button rounded-md border-light-slate hover:bg-slate hover:text-navy
+    @apply p-2.5 border w-[200px] text-center text-button rounded-md border-light-slate hover:bg-slate hover:text-light-navy
+  }
+
+  .about-comp {
+    @apply flex flex-col laptop:flex-row w-full gap-12 items-start justify-between
+  }
+
+  .about-section, .about-section > article {
+    @apply flex flex-col gap-6
+  }
+
+  .about-comp > img {
+    @apply tablet:h-[600px] w-fit rounded bg-cover bg-center
+  }
+
+  .list {
+    @apply grid grid-cols-2 gap-8
+  }
+
+  .icon-text > span {
+    @apply flex items-center gap-4 underline underline-offset-2 hover:text-light-slate
+  }
+
+  .icon-text > span > svg {
+    @apply text-section
   }
 }
